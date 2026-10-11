@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dra. Lucía Benítez · Médica clínica en Córdoba</title>
+<meta name="description" content="Consultorio de clínica médica: chequeos, control de enfermedades crónicas y telemedicina. Sacá tu turno online.">
+<meta name="theme-color" content="#0e8f8a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/base.css">
+<style>
+.checks{list-style:none;padding:0;margin:0 0 2rem;display:grid;gap:.7rem}
+.checks li{display:flex;gap:.7rem;align-items:flex-start}
+.checks svg{width:22px;height:22px;flex:none;color:var(--primary);margin-top:.2rem}
+.person{text-align:center}
+.avatar{width:84px;height:84px;margin:0 auto 1rem;border-radius:50%;background:var(--primary);color:var(--primary-ink);display:grid;place-items:center;font:700 2rem var(--font-head)}
+.person p{font-size:.95rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2rem}
+.about-art svg{width:100%;height:auto;border-radius:var(--radius)}
+.hero-split{min-height:100svh;display:flex;align-items:center;padding:calc(var(--nav-h) + 2rem) 0 4rem;position:relative;overflow:hidden}
+.hero-split .container{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.hero-split .art svg{width:100%;height:auto;max-height:70vh;margin-inline:auto}
+@media (max-width:820px){.hero-split .container{grid-template-columns:1fr}.hero-split .art{order:-1;max-width:340px;margin-inline:auto}.hero-split{text-align:left}}
+
+:root{--primary:#0e8f8a;--accent:#ff7a59;--bg:#fff;--bg2:#eef8f7;--ink:#10282b;--muted:#4e6a6c;--soft:#e0f6f5;--font-head:"Plus Jakarta Sans",sans-serif;--font-body:"Plus Jakarta Sans",sans-serif;--nav-bg:rgba(255,255,255,.95);--footer-bg:#0a3b3a}
+.hero-med{background:linear-gradient(135deg,#f6fdfc,#e0f6f5)}.hero-med em{color:var(--primary);font-style:normal}
+.badges{list-style:none;padding:0;margin:2rem 0 0;display:flex;flex-wrap:wrap;gap:1.2rem;color:var(--muted);font-size:.9rem}.badges li{display:flex;gap:.4rem;align-items:center}.badges svg{width:20px;color:var(--primary)}
+.os{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:center;margin-top:1.5rem}.os span{padding:.6rem 1.3rem;border:1.5px solid var(--line);border-radius:999px;background:#fff;font-weight:600;color:var(--muted)}
+.contact-sec{background:linear-gradient(180deg,#fff,#eef8f7)}
+</style>
+</head>
+<body class="med">
+<header class="nav">
+  <div class="container">
+    <a class="brand" href="#inicio" aria-label="Dra. Lucía Benítez"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#0e8f8a"/><path d="M17 8h6v9h9v6h-9v9h-6v-9H8v-6h9z" fill="#fff"/></svg><span>Dra. Lucía Benítez</span></a>
+    <nav aria-label="Principal"><ul class="menu"><li><a href="#servicios">Servicios</a></li><li><a href="#nosotros">Sobre mí</a></li><li><a href="#proceso">Cómo es la consulta</a></li><li><a href="#opiniones">Opiniones</a></li><li><a href="#faq">Preguntas</a></li></ul></nav>
+    <a class="btn nav-cta " href="#contacto">Sacar turno</a>
+    <button class="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main>
+<section class="hero-split hero-med" id="inicio"><div class="container"><div><span class="eyebrow">Medicina general · Clínica médica</span><h1>Tu salud, con atención <em>cercana</em> y sin esperas.</h1><p class="lead">Consultas, chequeos y seguimiento de enfermedades crónicas con la Dra. Lucía Benítez. Presencial y por videoconsulta.</p><div class="hero-actions"><a class="btn" href="#contacto">Sacar turno</a><a class="btn ghost" href="#servicios">Ver servicios</a></div><ul class="badges"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg>Matrícula MP 00000</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M23 7l-7 5 7 5zM3 5h11a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></svg>Telemedicina</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg>Obras sociales</li></ul></div><div class="art"><svg viewBox="0 0 500 500"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0f6f5"/><stop offset="1" stop-color="#b8e8e5"/></linearGradient></defs><rect width="500" height="500" rx="40" fill="url(#g)"/><circle cx="250" cy="250" r="150" fill="#fff" opacity=".7"/><path d="M60 270h110l25-70 45 140 35-100 20 30h145" fill="none" stroke="#0e8f8a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M250 150v-0" /><g fill="#0e8f8a"><rect x="232" y="90" width="36" height="110" rx="8" opacity=".15"/><rect x="195" y="127" width="110" height="36" rx="8" opacity=".15"/></g></svg></div></div></section>
+<section class="section"><div class="container"><div class="stats"><div><b>+12</b><span>Años de experiencia</span></div><div><b>+8.000</b><span>Pacientes atendidos</span></div><div><b>48 hs</b><span>Turno promedio</span></div><div><b>4,9★</b><span>Valoración</span></div></div></div></section>
+<section class="section alt" id="servicios"><div class="container">
+  <div class="center"><span class="eyebrow">Servicios</span><h2>Atención médica integral para toda la familia</h2><p class="lead">Un seguimiento continuo de tu salud, con tiempo para escucharte.</p></div>
+  <div class="grid g3" style="margin-top:2.5rem"><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div><h3>Chequeo médico anual</h3><p>Evaluación completa, laboratorio e indicaciones de prevención.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3>Enfermedades crónicas</h3><p>Control de hipertensión, diabetes, colesterol y tiroides.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h8"/></svg></div><h3>Certificados y aptos</h3><p>Aptos físicos, laborales y certificados médicos.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M23 7l-7 5 7 5zM3 5h11a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></svg></div><h3>Videoconsulta</h3><p>Consultas y recetas desde tu casa, con la misma calidad.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg></div><h3>Prevención</h3><p>Vacunación del adulto, controles y detección temprana.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div><h3>Medicina familiar</h3><p>Atención de adultos y adultos mayores, con enfoque familiar.</p></article></div>
+</div></section>
+<section class="section" id="obras"><div class="container center"><span class="eyebrow">Cobertura</span><h2>Trabajamos con obras sociales y prepagas</h2><p class="lead">Consultá por tu cobertura. También atendemos de forma particular con factura para reintegro.</p><div class="os"><span>OSDE</span><span>Swiss Medical</span><span>Galeno</span><span>APROSS</span><span>PAMI</span><span>Medifé</span><span>Particular</span></div></div></section>
+<section class="section" id="nosotros"><div class="container split">
+  <div class="about-art reveal" aria-hidden="true"><svg viewBox="0 0 500 400"><rect width="500" height="400" rx="24" fill="#e0f6f5"/><circle cx="250" cy="150" r="70" fill="#0e8f8a"/><path d="M110 400c0-90 60-150 140-150s140 60 140 150z" fill="#0e8f8a"/><rect x="215" y="260" width="70" height="140" fill="#fff"/></svg></div>
+  <div class="reveal"><span class="eyebrow">Sobre mí</span><h2>Medicina con tiempo, escucha y claridad</h2><p class="lead">Soy médica clínica con más de 12 años de experiencia. Creo en una consulta sin apuro, donde puedas hacer todas tus preguntas y salir con un plan claro.</p><ul class="checks"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Médica clínica · Universidad Nacional de Córdoba</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Actualización continua en medicina interna</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Consultas de 30 minutos, sin apuros</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Historia clínica digital y seguimiento</span></li></ul><a class="btn" href="#contacto">Sacar turno</a></div>
+</div></section>
+
+<section class="section alt" id="proceso"><div class="container">
+  <div class="center"><span class="eyebrow">Cómo es la consulta</span><h2>Simple desde el primer contacto</h2></div>
+  <ol class="steps" style="margin-top:2.5rem"><li class="reveal"><h3>Pedí tu turno</h3><p>Por el formulario o WhatsApp.</p></li><li class="reveal"><h3>Confirmación</h3><p>Te recordamos el día y horario.</p></li><li class="reveal"><h3>Consulta</h3><p>Evaluación, estudios e indicaciones.</p></li><li class="reveal"><h3>Seguimiento</h3><p>Control posterior y contacto por consultas.</p></li></ol>
+</div></section>
+<section class="section " id="opiniones"><div class="container">
+  <div class="center"><span class="eyebrow">Opiniones</span><h2>Pacientes que nos recomiendan</h2></div>
+  <div class="grid g3" style="margin-top:2.5rem"><blockquote class="card quote reveal" style="margin:0"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>“Muy atenta y clara. Por fin alguien me explicó mi tratamiento.”</p><footer>Laura S.<small>Paciente</small></footer></blockquote><blockquote class="card quote reveal" style="margin:0"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>“Los turnos online son un alivio. Me atendieron puntual.”</p><footer>Pablo C.<small>Paciente</small></footer></blockquote><blockquote class="card quote reveal" style="margin:0"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>“Llevo a mis padres con ella desde hace años. Siempre excelentes.”</p><footer>Mariana F.<small>Paciente</small></footer></blockquote></div>
+</div></section>
+<section class="section alt" id="faq"><div class="container">
+  <div class="center"><span class="eyebrow">Preguntas frecuentes</span><h2>Preguntas frecuentes</h2></div>
+  <div class="faq"><details><summary>¿Atienden por obra social?</summary><p>Sí, con las principales obras sociales y prepagas. Consultá por la tuya.</p></details><details><summary>¿Puedo hacer la consulta online?</summary><p>Sí, por videollamada con receta y órdenes digitales.</p></details><details><summary>¿Cuánto dura la consulta?</summary><p>Entre 30 y 40 minutos.</p></details><details><summary>¿Qué debo llevar?</summary><p>DNI, credencial y estudios previos si los tenés.</p></details></div>
+</div></section>
+<section class="section contact-sec" id="contacto"><div class="container contact">
+  <div class="reveal">
+    <span class="eyebrow">Turnos</span>
+    <h2>Sacá tu turno</h2>
+    <p class="lead">Completá el formulario y te confirmo el horario por WhatsApp.</p>
+    <ul class="info"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><div><b>Teléfono</b><small>+54 351 000-0000</small></div></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0zM12 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg><div><b>Consultorio</b><small>Av. Colón 1234, Piso 2 · Córdoba</small></div></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM12 6v6l4 2"/></svg><div><b>Horarios</b><small>Lun a Vie de 9 a 19 hs</small></div></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM22 6l-10 7L2 6"/></svg><div><b>Email</b><small>turnos@drabenitez.com.ar</small></div></li></ul>
+    <iframe class="map" title="Mapa" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-64.22%2C-31.44%2C-64.16%2C-31.40&amp;layer=mapnik"></iframe>
+  </div>
+  <form class="form reveal" data-wa="5493510000000" aria-label="Formulario de contacto">
+    <h3>Pedí tu turno</h3>
+    <div class="row">
+      <label>Nombre<input name="Nombre" required autocomplete="name" placeholder="Tu nombre"></label>
+      <label>Teléfono<input name="Teléfono" type="tel" required autocomplete="tel" placeholder="351 000 0000"></label>
+    </div>
+    <label>Email<input name="Email" type="email" autocomplete="email" placeholder="tu@email.com"></label>
+    <div class="row">
+      <label>Motivo<select name="Motivo"><option>Consulta general</option><option>Chequeo anual</option><option>Control crónico</option><option>Certificado / apto</option><option>Videoconsulta</option></select></label>
+      <label>Horario preferido<select name="Horario"><option>Mañana</option><option>Tarde</option><option>Noche</option></select></label>
+    </div>
+    <label>Mensaje<textarea name="Mensaje" placeholder="Contame brevemente el motivo"></textarea></label>
+    <button class="btn block " type="submit">Solicitar turno por WhatsApp</button>
+    <div class="form-ok" role="status">¡Gracias! Se abrió WhatsApp con tu mensaje para que lo envíes.</div>
+    <p class="note">Respondemos en el día. Tus datos se usan solo para contactarte.</p>
+  </form>
+</div></section>
+</main>
+<footer class="footer"><div class="container"><span>© <span id="year">2026</span> Dra. Lucía Benítez. Todos los derechos reservados.</span><span>Clínica médica · Córdoba · <a href="../index.html">Más landings</a></span></div></footer>
+<a class="wa" href="https://wa.me/5493510000000" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8A13 13 0 0 0 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-4 1 1.1-3.9-.3-.4A10.7 10.7 0 1 1 16 26.700zm5.900-8c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.2-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.200 1.100-1.200 2.800s1.200 3.300 1.400 3.500c.2.200 2.400 3.700 5.800 5.100 3.400 1.400 3.400.9 4 .9.600-.1 1.900-.8 2.200-1.500.3-.8.300-1.400.2-1.500-.1-.1-.3-.2-.6-.4z"/></svg></a>
+<script src="../assets/main.js"></script>
+</body>
+</html>

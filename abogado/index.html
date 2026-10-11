@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estudio Jurídico Ferrari & Asociados · Abogados en Córdoba</title>
+<meta name="description" content="Abogados especialistas en derecho laboral y previsional en Córdoba. Primera consulta sin cargo.">
+<meta name="theme-color" content="#14213d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/base.css">
+<style>
+.checks{list-style:none;padding:0;margin:0 0 2rem;display:grid;gap:.7rem}
+.checks li{display:flex;gap:.7rem;align-items:flex-start}
+.checks svg{width:22px;height:22px;flex:none;color:var(--primary);margin-top:.2rem}
+.person{text-align:center}
+.avatar{width:84px;height:84px;margin:0 auto 1rem;border-radius:50%;background:var(--primary);color:var(--primary-ink);display:grid;place-items:center;font:700 2rem var(--font-head)}
+.person p{font-size:.95rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2rem}
+.about-art svg{width:100%;height:auto;border-radius:var(--radius)}
+.hero-split{min-height:100svh;display:flex;align-items:center;padding:calc(var(--nav-h) + 2rem) 0 4rem;position:relative;overflow:hidden}
+.hero-split .container{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.hero-split .art svg{width:100%;height:auto;max-height:70vh;margin-inline:auto}
+@media (max-width:820px){.hero-split .container{grid-template-columns:1fr}.hero-split .art{order:-1;max-width:340px;margin-inline:auto}.hero-split{text-align:left}}
+
+:root{--primary:#b08d4c;--accent:#b08d4c;--bg:#fff;--bg2:#f4f1ea;--ink:#14213d;--muted:#555b6e;--soft:#f4f1ea;--font-head:"Cormorant Garamond",serif;--font-body:"Montserrat",sans-serif;--nav-ink:#fff;--menu-ink:#fff;--nav-bg:rgba(14,22,43,.96);--radius:4px;--footer-bg:#0e162b}
+h1,h2,h3{font-weight:500}h2{font-size:clamp(2rem,4.5vw,3.2rem)}
+.nav{background:rgba(255,255,255,.12);color:#fff}.nav .brand{font-weight:500;font-size:1.3rem}
+.hero-law{position:relative;min-height:100svh;display:flex;align-items:center;text-align:center;color:#fff;padding:calc(var(--nav-h) + 2rem) 0 4rem;background:radial-gradient(circle at 70% 30%,#27406e 0,#14213d 55%,#0a1020 100%)}
+.hero-law::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 2px,transparent 2px 40px)}
+.hero-law .container{position:relative}
+.kicker{letter-spacing:.35em;font-size:clamp(.85rem,2.4vw,1.5rem);font-weight:300;margin-bottom:1.5rem}
+.hero-law h1{font-size:clamp(2rem,5.5vw,4rem);font-weight:500;max-width:18ch;margin:0 auto 1rem}
+.sub{font-size:1.15rem;opacity:.85;max-width:52ch;margin:0 auto}
+.hero-law .hero-actions{justify-content:center}
+.btn{border-radius:2px;letter-spacing:.05em;text-transform:uppercase;font-size:.85rem}
+.btn.gold{background:#b08d4c;color:#fff}.hero-law .btn.ghost{color:#fff}
+.card{box-shadow:none;border-top:3px solid var(--primary);border-radius:2px}
+.eyebrow{letter-spacing:.25em}
+.contact-sec{background:#14213d;color:#fff}.contact-sec .lead,.contact-sec .info small{color:#c9cedd}.contact-sec .eyebrow,.contact-sec .info svg{color:#d9b877}
+.contact-sec .form{color:#14213d}.contact-sec .form h3{color:#14213d}
+.quote p{font-family:var(--font-head);font-size:1.3rem}
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+@media (max-width:820px){.prices{grid-template-columns:1fr}}
+</style>
+</head>
+<body class="law">
+<header class="nav">
+  <div class="container">
+    <a class="brand" href="#inicio" aria-label="Ferrari & Asociados"><svg style="color:#d9b877" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3v18M5 21h14M3 7h18M6 7l-3 8a3 3 0 0 0 6 0zM18 7l-3 8a3 3 0 0 0 6 0z"/></svg><span>Ferrari & Asociados</span></a>
+    <nav aria-label="Principal"><ul class="menu"><li><a href="#inicio">Inicio</a></li><li><a href="#areas">Áreas</a></li><li><a href="#servicios">Servicios</a></li><li><a href="#nosotros">Nosotros</a></li><li><a href="#faq">Preguntas</a></li><li><a href="#contacto">Contacto</a></li></ul></nav>
+    <a class="btn nav-cta gold" href="#contacto">Contactame</a>
+    <button class="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main>
+<section class="hero-law" id="inicio"><div class="shade"></div><div class="container"><p class="kicker">ESTUDIO JURÍDICO DE ABOGADOS</p><h1>Especialistas en Derecho Laboral y Previsional</h1><p class="sub">Defendemos tus derechos con estrategia, claridad y compromiso. Primera consulta sin cargo.</p><div class="hero-actions"><a class="btn gold" href="#contacto">Contactame</a><a class="btn ghost" href="#areas">Áreas de práctica</a></div></div></section>
+<section class="section"><div class="container"><div class="stats"><div><b>+18</b><span>Años de ejercicio</span></div><div><b>+1.500</b><span>Casos resueltos</span></div><div><b>94%</b><span>Casos con resultado favorable</span></div><div><b>24 hs</b><span>Respuesta a consultas</span></div></div></div></section>
+<section class="section alt" id="servicios"><div class="container">
+  <div class="center"><span class="eyebrow">Servicios legales</span><h2>Acompañamiento legal en cada etapa</h2><p class="lead">Desde el asesoramiento inicial hasta la resolución judicial o extrajudicial.</p></div>
+  <div class="grid g3" style="margin-top:2.5rem"><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h8"/></svg></div><h3>Asesoramiento legal</h3><p>Análisis de tu situación y estrategia clara con los pasos a seguir.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 3v18M5 21h14M3 7h18M6 7l-3 8a3 3 0 0 0 6 0zM18 7l-3 8a3 3 0 0 0 6 0z"/></svg></div><h3>Negociación y mediación</h3><p>Acuerdos justos sin llegar a juicio cuando es posible.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 7h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2zM16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h3>Juicios laborales</h3><p>Representación completa ante tribunales del trabajo.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></div><h3>Derecho previsional</h3><p>Jubilaciones, reajustes y pensiones: trámite completo.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg></div><h3>Asesoramiento a empresas</h3><p>Prevención de conflictos y regularización laboral.</p></article><article class="card reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM12 6v6l4 2"/></svg></div><h3>Seguimiento permanente</h3><p>Te informamos cada novedad de tu expediente.</p></article></div>
+</div></section>
+<section class="section" id="areas"><div class="container"><div class="center"><span class="eyebrow">Áreas de práctica</span><h2>Casos que atendemos con especialización</h2></div><div class="grid g2" style="margin-top:2.5rem"><div class="card reveal"><h3>Despidos y indemnizaciones</h3><p>Despido sin causa, con causa, falta de registración y cálculo de liquidaciones finales.</p></div><div class="card reveal"><h3>Accidentes y enfermedades laborales</h3><p>Reclamos ante ART y comisiones médicas, incapacidades y reparación integral.</p></div><div class="card reveal"><h3>Jubilaciones y pensiones</h3><p>Trámites ante ANSES, reajustes de haberes, moratorias y pensiones por fallecimiento.</p></div><div class="card reveal"><h3>Acoso laboral y discriminación</h3><p>Asesoramiento y acciones legales frente a situaciones de maltrato en el trabajo.</p></div></div></div></section>
+<section class="section" id="nosotros"><div class="container split">
+  <div class="about-art reveal" aria-hidden="true"><svg viewBox="0 0 500 400"><rect width="500" height="400" fill="#14213d"/><g stroke="#b08d4c" fill="none" stroke-width="5" stroke-linecap="round" transform="translate(140 40) scale(10)"><path d="M12 3v18M5 21h14M3 7h18M6 7l-3 8a3 3 0 0 0 6 0zM18 7l-3 8a3 3 0 0 0 6 0z" stroke-width=".5"/></g></svg></div>
+  <div class="reveal"><span class="eyebrow">El estudio</span><h2>Experiencia y compromiso con cada cliente</h2><p class="lead">Somos un estudio de abogados con trayectoria en Córdoba. Tratamos cada caso de forma personalizada, con honestidad sobre los alcances posibles y comunicación permanente.</p><ul class="checks"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Primera consulta sin cargo</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Honorarios claros y por escrito</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Trato directo con el abogado a cargo</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M20 6L9 17l-5-5"/></svg><span>Atención presencial y online</span></li></ul><a class="btn" href="#contacto">Contactame</a></div>
+</div></section>
+
+<section class="section alt" id="proceso"><div class="container">
+  <div class="center"><span class="eyebrow">Cómo trabajamos</span><h2>Un proceso claro y transparente</h2></div>
+  <ol class="steps" style="margin-top:2.5rem"><li class="reveal"><h3>Consulta inicial</h3><p>Escuchamos tu caso sin compromiso.</p></li><li class="reveal"><h3>Estrategia</h3><p>Evaluamos la documentación y definimos el camino.</p></li><li class="reveal"><h3>Acción legal</h3><p>Presentamos reclamos, negociamos o litigamos.</p></li><li class="reveal"><h3>Resolución</h3><p>Te acompañamos hasta el cobro o resolución final.</p></li></ol>
+</div></section>
+<section class="section " id="opiniones"><div class="container">
+  <div class="center"><span class="eyebrow">Opiniones</span><h2>Lo que dicen nuestros clientes</h2></div>
+  <div class="grid g3" style="margin-top:2.5rem"><blockquote class="card quote reveal" style="margin:0"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>“Me despidieron sin explicación. Me guiaron en todo y cobré lo que me correspondía.”</p><footer>Roberto D.<small>Cliente · Despido</small></footer></blockquote><blockquote class="card quote reveal" style="margin:0"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>“Logré mi jubilación después de años de trabas. Excelente atención.”</p><footer>Silvia G.<small>Cliente · Jubilación</small></footer></blockquote><blockquote class="card quote reveal" style="margin:0"><div class="stars" aria-label="5 estrellas">★★★★★</div><p>“Siempre disponibles para responder mis dudas, por cualquier medio.”</p><footer>Andrés L.<small>Cliente · Accidente laboral</small></footer></blockquote></div>
+</div></section>
+<section class="section alt" id="faq"><div class="container">
+  <div class="center"><span class="eyebrow">Preguntas frecuentes</span><h2>Dudas frecuentes</h2></div>
+  <div class="faq"><details><summary>¿La primera consulta tiene costo?</summary><p>No. La primera consulta es sin cargo y sin compromiso.</p></details><details><summary>¿Cuánto tarda un juicio laboral?</summary><p>Depende de cada caso. En la consulta te damos un estimativo realista.</p></details><details><summary>¿Cómo cobran sus honorarios?</summary><p>Se acuerdan por escrito al inicio. En muchos casos, a resultado.</p></details><details><summary>¿Atienden online?</summary><p>Sí, por videollamada o WhatsApp, además de la atención presencial.</p></details></div>
+</div></section>
+<section class="section contact-sec" id="contacto"><div class="container contact">
+  <div class="reveal">
+    <span class="eyebrow">Contacto</span>
+    <h2>Contactame</h2>
+    <p class="lead">Contame tu caso y te respondo dentro de las 24 horas. La consulta es confidencial.</p>
+    <ul class="info"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><div><b>Teléfono</b><small>+54 351 000-0000</small></div></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM22 6l-10 7L2 6"/></svg><div><b>Email</b><small>contacto@ferrariasociados.com.ar</small></div></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0zM12 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg><div><b>Estudio</b><small>Obispo Trejo 123, Piso 4, Córdoba</small></div></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM12 6v6l4 2"/></svg><div><b>Horario</b><small>Lun a Vie de 9 a 18 hs</small></div></li></ul>
+    <iframe class="map" title="Mapa" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-64.22%2C-31.44%2C-64.16%2C-31.40&amp;layer=mapnik"></iframe>
+  </div>
+  <form class="form reveal" data-wa="5493510000000" aria-label="Formulario de contacto">
+    <h3>Solicitá tu consulta</h3>
+    <div class="row">
+      <label>Nombre<input name="Nombre" required autocomplete="name" placeholder="Tu nombre"></label>
+      <label>Teléfono<input name="Teléfono" type="tel" required autocomplete="tel" placeholder="351 000 0000"></label>
+    </div>
+    <label>Email<input name="Email" type="email" autocomplete="email" placeholder="tu@email.com"></label>
+    <div class="row">
+      <label>Tema<select name="Motivo"><option>Despido</option><option>Accidente laboral</option><option>Jubilación / pensión</option><option>Reclamo de haberes</option><option>Otro</option></select></label>
+      <label>Horario preferido<select name="Horario"><option>Mañana</option><option>Tarde</option><option>Noche</option></select></label>
+    </div>
+    <label>Mensaje<textarea name="Mensaje" placeholder="Contanos brevemente tu situación"></textarea></label>
+    <button class="btn block gold" type="submit">Enviar consulta</button>
+    <div class="form-ok" role="status">¡Gracias! Se abrió WhatsApp con tu mensaje para que lo envíes.</div>
+    <p class="note">Respondemos en el día. Tus datos se usan solo para contactarte.</p>
+  </form>
+</div></section>
+</main>
+<footer class="footer"><div class="container"><span>© <span id="year">2026</span> Ferrari & Asociados. Todos los derechos reservados.</span><span>Abogados · Córdoba · <a href="../index.html">Más landings</a></span></div></footer>
+<a class="wa" href="https://wa.me/5493510000000" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8A13 13 0 0 0 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-4 1 1.1-3.9-.3-.4A10.7 10.7 0 1 1 16 26.700zm5.900-8c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.2-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.200 1.100-1.200 2.800s1.200 3.300 1.400 3.500c.2.200 2.400 3.700 5.800 5.100 3.400 1.400 3.400.9 4 .9.600-.1 1.900-.8 2.200-1.500.3-.8.300-1.400.2-1.500-.1-.1-.3-.2-.6-.4z"/></svg></a>
+<script src="../assets/main.js"></script>
+</body>
+</html>
