@@ -52,7 +52,7 @@ const VistaClinica = {
           <p>Contamos con profesionales de distintas especialidades, consultorios modernos y guardia las 24 horas.</p>
         </div>
         <div class="col-12 col-md-6">
-          <img src="../imagenes/clinica4.jpg" class="img-fluid rounded shadow" alt="Interior de la clínica">
+          <img src="../imagenes/clinica4.webp" class="img-fluid rounded shadow" alt="Interior de la clínica">
         </div>
       </div>
     </section>`

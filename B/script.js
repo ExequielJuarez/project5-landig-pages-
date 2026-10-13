@@ -18,16 +18,16 @@ createApp({
       form: { nombre: '', especialidad: '', mensaje: '' },
       consultas: [],
       noticias: [
-        { id: 1, titulo: 'Nuevo tomógrafo', texto: 'Ya está disponible en diagnóstico por imágenes.', imagen: '../imagenes/n1.jpg' },
-        { id: 2, titulo: 'Vacunación antigripal', texto: 'Campaña abierta hasta fin de mes.', imagen: '../imagenes/n2.jpg' },
-        { id: 3, titulo: 'Nuevo especialista', texto: 'Se suma una dermatóloga al equipo.', imagen: '../imagenes/n3.jpg' },
-        { id: 4, titulo: 'Jornada de prevención', texto: 'Controles gratuitos el próximo sábado.', imagen: '../imagenes/n4.jpg' }
+        { id: 1, titulo: 'Nuevo tomógrafo', texto: 'Ya está disponible en diagnóstico por imágenes.', imagen: '../imagenes/n1.webp' },
+        { id: 2, titulo: 'Vacunación antigripal', texto: 'Campaña abierta hasta fin de mes.', imagen: '../imagenes/n2.webp' },
+        { id: 3, titulo: 'Nuevo especialista', texto: 'Se suma una dermatóloga al equipo.', imagen: '../imagenes/n3.webp' },
+        { id: 4, titulo: 'Jornada de prevención', texto: 'Controles gratuitos el próximo sábado.', imagen: '../imagenes/n4.webp' }
       ],
       especialidades: [
-        { id: 1, nombre: 'Cardiología', profesional: 'Dr. Martín Pereyra', dias: 'Lunes y miércoles', imagen: '../imagenes/esp1.jpg', interesados: 0 },
-        { id: 2, nombre: 'Pediatría', profesional: 'Dra. Laura Gómez', dias: 'Martes y jueves', imagen: '../imagenes/esp2.jpg', interesados: 0 },
-        { id: 3, nombre: 'Traumatología', profesional: 'Dr. Sergio Ledesma', dias: 'Lunes a viernes', imagen: '../imagenes/esp3.jpg', interesados: 0 },
-        { id: 4, nombre: 'Dermatología', profesional: 'Dra. Carolina Ríos', dias: 'Miércoles y viernes', imagen: '../imagenes/esp4.jpg', interesados: 0 }
+        { id: 1, nombre: 'Cardiología', profesional: 'Dr. Martín Pereyra', dias: 'Lunes y miércoles', imagen: '../imagenes/esp1.webp', interesados: 0 },
+        { id: 2, nombre: 'Pediatría', profesional: 'Dra. Laura Gómez', dias: 'Martes y jueves', imagen: '../imagenes/esp2.webp', interesados: 0 },
+        { id: 3, nombre: 'Traumatología', profesional: 'Dr. Sergio Ledesma', dias: 'Lunes a viernes', imagen: '../imagenes/esp3.webp', interesados: 0 },
+        { id: 4, nombre: 'Dermatología', profesional: 'Dra. Carolina Ríos', dias: 'Miércoles y viernes', imagen: '../imagenes/esp4.webp', interesados: 0 }
       ]
     };
   },
